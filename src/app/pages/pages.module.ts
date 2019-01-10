@@ -14,6 +14,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { ChartsModule } from 'ng2-charts';
 import { BrowserModule } from '@angular/platform-browser';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 @NgModule({
   declarations: [
     PagesComponent,
@@ -21,7 +22,8 @@ import { BrowserModule } from '@angular/platform-browser';
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
